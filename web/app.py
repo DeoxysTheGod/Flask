@@ -11,7 +11,7 @@ def plus_one():
 @app.route('/plus_two')
 def plus_two():
 	x=int(request.args.get('x',1))
-	return json.dumps({'x':x+3})
+	return json.dumps({'x':x+4})
 
 @app.route('/square')
 def square():
